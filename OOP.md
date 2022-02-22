@@ -11,4 +11,5 @@ Karena suatu subclass dapat mewarisi apa-apa yang dipunyai oleh parent class-nya
 Learn Ruby Inheritance :
 
 - https://www.geeksforgeeks.org/ruby-inheritance/?ref=lbp
+- https://guru99.com/java-class-inheritance.html#:~:text=Inheritance%20is%20a%20mechanism%20in,an%20important%20concept%20of%20OOPs.
   
