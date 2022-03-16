@@ -10,7 +10,7 @@ class FireMonster < Monster
     if @hit.include? "frozen"
       puts "#{@name} is in frozen state, can't attack"
     else
-      if @total_turn == 0
+      if monster.total_turn == 0
         monster.total_turn += 1
         monster.hit << "burnt"
         monster.delay_damage = (0.4*@attack_point)

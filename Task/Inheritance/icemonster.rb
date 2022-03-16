@@ -1,11 +1,9 @@
 require_relative 'monster.rb'
 
 class IceMonster < Monster
-  attr_accessor :total_turn
   
   def initialize(name, hitpoint, attack_point)
     super(name, hitpoint, attack_point)
-    @total_turn = 0
   end
   
   def attack(monster)
